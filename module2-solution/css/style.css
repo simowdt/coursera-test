@@ -39,7 +39,7 @@
   p {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 25px;
-
+  text-overflow: clip;
   }
 
   #chicken {
