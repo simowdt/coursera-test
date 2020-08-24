@@ -1,0 +1,165 @@
+ * {
+  box-sizing: border-box;
+  }
+
+  body {
+    background-color: #ffcc00;
+  }
+
+/** HEADER **/
+#header-nav{
+background-color: #ff5e42;
+border-radius: 0;
+border: 0;
+}
+
+.navbar-brand {
+margin-top: -7px;
+}
+
+.navbar-brand h1 { /*Restaurant name*/
+color: white;
+text-shadow: 1px 1px 1px #222;
+text-align: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+/* END HEADER */
+
+
+  h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 175%;
+  }
+
+  #HeaderName{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+  #OurMenu {
+
+  }
+
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: -20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: center;
+  }
+
+  div {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+  text-overflow: clip;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+  /********* Base Styles ***********************************/
+  section {
+    position: relative;
+    padding: 10px;
+    border: 3px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    background-color: #ffff66; 
+  }
+
+
+  /********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+#nav-list {
+  
+}
+#nav-list a {
+  color: black;
+}
+#nav-list a:hover {
+  background: #ffff66;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+  /* Header */
+
+  #HeaderName {
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    /*font-size: 5vw;*/ /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -61px;
+  height: 50px;
+  width: 50px;
+  text-align: -webkit-center;
+  }
+
+.navbar-default .navbar-toggle:hover {
+  background: #ffb15e;
+ } 
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+    border: 0;
+    background: #ffb15e;
+}
+
+  /* End Header */
+
+}
